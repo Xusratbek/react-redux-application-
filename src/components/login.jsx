@@ -12,10 +12,7 @@ const Login = () => {
 
 const loginHandler = e=> {
   e.preventDefault()
-
   dispatch(loginUserStart())
-
-
 }
   return (
     <div className="text-center mt-5">
