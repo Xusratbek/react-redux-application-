@@ -7,7 +7,7 @@ export default configureStore({
   reducer: {
     auth:AuthReducer
   },
-  devTools:process.env.NODE_ENV !=='PRODUCTION',
+  devTools:process.env.NODE_ENV !=='production',
 })
 
 
